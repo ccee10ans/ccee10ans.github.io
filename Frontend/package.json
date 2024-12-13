@@ -9,6 +9,7 @@
     "serve": "vite preview",
     "server": "nodemon server/server.js",
     "start": "node server/server.js",
+    "deploy": "gh-pages -d dist",
     "heroku-postbuild": "cd Frontend && npm install --legacy-peer-deps && npm run build"
   },
   "dependencies": {
