@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import ImageC1 from '../assets/Images/ImageCarou1.jpg'
 import ImageC2 from '../assets/Images/ImageCarou2.jpg'
 import ImageC3 from '../assets/Images/ImageCarou3.jpg'
-import ImageC4 from '../assets/Images/Fetes.jpg'
+import ImageC4 from '../../src/assets/Images/Fetes.jpg'
 
 const diapositives = [
   {
