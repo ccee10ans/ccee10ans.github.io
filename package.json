@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "build": "cd Frontend && npm install && npm run build",
-    "heroku-postbuild":"cd Frontend && npm install @vitejs/plugin-react && npm install && npm run build"
-    
+    "heroku-postbuild": "cd Frontend && npm install @vitejs/plugin-react && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +15,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.6",
     "express": "^4.21.1",
+    "gopd": "^1.2.0",
     "mongoose": "^8.8.3",
     "vite": "^6.0.3"
   },
